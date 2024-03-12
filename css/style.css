@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'pixel';
-    src: url('../font/pixel.ttf');
+    src: url('../font/Minecraft.ttf');
 }
 
 * {
@@ -592,18 +592,30 @@ footer {
     transition: .5s;
 }
 
-.checkboxContainer{
-    width: 80%;
-    border: 1px solid rebeccapurple;
+.checkboxContainer {
+    width: 60%;
     display: flex;
     align-items: center;
     margin: 0 auto;
+    justify-content: space-between; /* Adicionado para separar os itens */
+    margin-bottom: 1em;
 }
 
-.checkboxContainer span:last-child{
+.checkboxContainer div {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
+.checkboxContainer div input[type="checkbox"] {
+    margin-right: 10px; /* Adiciona um espaço entre a caixa de seleção e o texto */
+}
+
+.checkboxContainer a{
+    font-size: 1em;
+}
+
+.loginInner .formBtn{
+    margin-bottom: 1em;
+}
 
 /* #endregion */
