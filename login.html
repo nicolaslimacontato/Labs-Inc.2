@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meuCSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- boxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swiper -->
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' />
+    <!-- Aos -->
+    <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel="stylesheet">
+    <!-- favIcon -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="menu">
+                    <!-- logo -->
+                    <a href="index.html" class="logo">
+                        <i class='bx bxs-joystick'></i>
+                        <span>Labs Inc.</span>
+                    </a>
+                    <!-- menu -->
+                    <ul class="navBar">
+                        <!-- menu hambuger -->
+                        <a class="btnMenu">
+                            <i class='bx bx-menu'></i>
+                        </a>
+                        <li>
+                            <a href="index.html#home">home</a>
+                        </li>
+                        <li>
+                            <a href="index.html#about">about</a>
+                        </li>
+                        <!-- dropdwon -->
+                        <li>
+                            <a>
+                                specialties
+                                <i class='bx bx-chevron-down'></i>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="index.html#emphasis">emphasis</a></li>
+                                <li><a href="index.html#products">products</a></li>
+                                <li><a href="index.html#services">services</a></li>
+                                <li><a href="index.html#domain">domain</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="index.html#localization">localization</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="login">
+                <div class="loginContainer">
+                    <h2>Login</h2>
+                    <form action="#" method="post">
+                        <ul class="loginInner">
+                            <li>
+                                <input type="email" name="email" placeholder="email:" autocomplete="off" required>
+                            </li>
+                            <li>
+                                <input type="password" name="password" placeholder="password:" autocomplete="off" required>
+                            </li>
+                            <li class="checkboxContainer">
+                                <input type="checkbox" name="" id="">
+                                <span>Remember me</span>
+                                <span>Forgot password</span>
+                            </li>
+                            <li class="formBtn">
+                                <input type="submit" value="Login" class="btnDefault">
+                            </li>
+                        </ul>
+                        <input type="hidden" name="accsessKey" value="myAccessKey">
+                        <input type="hidden" name="redirectTo" value="urlThanks">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footerContainer">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#emphasis">emphasis</a></li>
+                    <li><a href="#products">products</a></li>
+                    <li><a href="#services">services</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#domain">domain</a></li>
+                    <li><a href="#localization">localization</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+                <!-- logo -->
+                <a href="index.html" class="logo">
+                    <i class='bx bxs-joystick'></i>
+                    <span>Labs Inc.</span>
+                </a>
+                <h5>&copy; Copyright all rights reserved 2024 powered by Nicolau</h5>
+            </div>
+        </footer>
+    </div>
+     <!-- jQuery -->
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+     <!-- swiper -->
+     <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+     <!-- Aos -->
+     <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+     <!-- my script -->
+     <script src="script/script.js"></script>
+</body>
+
+</html>
