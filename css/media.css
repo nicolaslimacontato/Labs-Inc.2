@@ -1,0 +1,248 @@
+/* 
+    320px - 480px: Dispositivos moveis
+    481px - 768px: tablets, ipads
+    769 - 1024: tela pequena, laptops
+    1025 - 1280: desktop
+    12801 - 1600px: telas grandes
+    1601- acima: tv e telas especificas
+*/
+
+/* 1024 - tela pequena, laptops */
+@media screen and (max-width: 1024px) {
+
+    /* logo */
+    .logo span {
+        display: none;
+    }
+
+    /* emphasis */
+    .imgFit {
+        padding: 5em 4em;
+    }
+
+    /* products */
+
+    .productsContainer {
+        width: 93%;
+        padding: 5em 0;
+    }
+
+    .cardProd {
+        width: 23%;
+    }
+
+
+    /* services */
+    .servicesInner table td {
+        padding: .6em 0;
+    }
+
+    /* contact */
+    #contact {
+        text-align: center;
+        padding: 2em 0 0 0;
+    }
+
+    .contactContainer {
+        width: 60%;
+    }
+
+    /* login */
+    .loginContainer {
+        width: 60%;
+    }
+
+    #login {
+        padding: 7em 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* #region menu */
+
+
+    /* ham? buguer */
+    .btnMenu {
+        display: block;
+        padding: .07em;
+        display: flex;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    ul.open {
+        overflow: visible;
+    }
+
+    ul.sub {
+        right: 10rem;
+    }
+
+    /* #endregion */
+    .homeInner h1 {
+        font-size: var(--title-default);
+    }
+
+    .imgFit {
+        padding: 15em 4em;
+    }
+
+    /* products */
+
+    .productsContainer {
+        width: 80%;
+        padding: 5em 0;
+    }
+
+    .cardProd {
+        width: 40%;
+        margin-bottom: 1.5em;
+    }
+
+    /* services */
+    .servicesInner table td {
+        padding: .6em 0;
+    }
+
+    #services {
+        text-align: center;
+        padding: 1em;
+    }
+
+    .servicesContainer {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .servicesContainer h2 {
+        padding: 1.8em 0;
+        font-size: 2em;
+    }
+
+    /* doamin */
+
+    .domainContainer li input[type=text] {
+        width: 90%;
+    }
+
+    /* contact */
+    #contact {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contactContainer {
+        width: 80%;
+    }
+
+    .loginContainer {
+        width: 80%;
+    }
+
+    #login {
+        padding: 7em 0 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* home */
+    .homeContainer {
+        height: 100vh;
+        background-color: var(--color-default);
+    }
+
+    video {
+        display: none;
+    }
+
+    .homeInner h1 {
+        font-size: 3em;
+    }
+
+    .imgFit {
+        padding: 16em 1em;
+    }
+
+    /* products */
+
+    .productsContainer {
+        width: 90%;
+        padding: 5em 0;
+    }
+
+    .cardProd {
+        width: 100%;
+    }
+
+    /* services */
+    .servicesInner table td {
+        padding: .6em 0;
+    }
+
+    #services {
+        text-align: center;
+        padding: 1em;
+    }
+
+    .servicesContainer {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .servicesContainer h2 {
+        padding: 1.8em 0;
+        font-size: 2em;
+    }
+
+    .servicesInner table th {
+        font-size: 1.4em;
+    }
+
+    /* doamin */
+
+    #domain h2 {
+        font-size: 1.3em;
+    }
+
+    /* contact */
+    #contact {
+        text-align: center;
+        padding: 5em 0 0 0;
+        height: 100vh;
+    }
+
+    .contactContainer {
+        width: 96%;
+    }
+
+    .loginContainer {
+        width: 95%;
+    }
+
+    .checkboxContainer {
+        width: 80%;
+    }
+
+    .loginInner input[type=email],
+    [type=password] {
+        width: 80%;
+    }
+
+    #login {
+        padding: 11em 0 0 0;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
